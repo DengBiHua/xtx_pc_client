@@ -1,0 +1,18 @@
+.wrapper {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 52px;
+    background-color: #333333;
+}
+
+.header .wrapper {
+    float: right;
+    background-color: green;
+}
+
+.header .wrapper li {
+    float: right;
+}
