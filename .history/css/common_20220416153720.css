@@ -173,18 +173,9 @@
 .footer .bottom {
     height: 48px;
     margin-top: 41px;
-    text-align: center;
+    background-color: pink;
 }
 
-.footer .bottom a {
-    padding: 0 5px;
-    font-size: 14px;
-    color: #999999;
-    vertical-align: middle;
-}
-
-.footer .bottom p {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #999999;
+.footer .bottom li {
+    float: left;
 }

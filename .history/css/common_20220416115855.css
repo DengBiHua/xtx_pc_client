@@ -1,0 +1,103 @@
+.wrapper {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 52px;
+    background-color: #333333;
+}
+
+.header .wrapper {
+    height: 52px;
+    line-height: 52px;
+}
+
+.header .wrapper ul {
+    float: right;
+}
+
+.header .wrapper li {
+    float: left;
+}
+
+.header .wrapper li a {
+    padding: 0 17px;
+    border-right: 1px solid #666666;
+    font-size: 14px;
+    color: #dcdcdc;
+}
+
+.header .wrapper li a span {
+    display: inline-block;
+    margin-right: 15px;
+    width: 11px;
+    height: 16px;
+    background-image: url(../images/sprites.png);
+    background-position: -160px -70px;
+    vertical-align: middle;
+}
+
+.header .wrapper li:last-child a {
+    border: none;
+    padding-right: 2px;
+}
+
+.nav {
+    margin: 30px auto;
+    height: 70px;
+}
+
+.logo h1 a {
+    float: left;
+    display: block;
+    width: 209px;
+    height: 70px;
+    margin: 0 16px 0 25px;
+    background-image: url(../images/logo.png);
+    background-size: contain;
+    font-size: 0;
+}
+
+.menu {
+    float: left;
+}
+
+.menu li {
+    float: left;
+    padding: 0 24px;
+    height: 70px;
+    line-height: 70px;
+}
+
+.menu li a {
+    padding-bottom: 7px;
+}
+
+.menu li a:hover {
+    color: #27ba9b;
+    border-bottom: 1px solid #27ba9b;
+}
+
+.search {
+    border: 2px solid #e7e7e7;
+}
+
+.search input {
+    padding-left: 20px;
+    width: 172px;
+    height: 38px;
+    background-color: pink;
+}
+
+.search span {
+    width: 18px;
+    height: 18px;
+    margin-left: 2px;
+    background-image: url(../images/sprites.png);
+    background-position: -79px -69px;
+}
+
+.buyCar {
+
+}

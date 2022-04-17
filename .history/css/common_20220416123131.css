@@ -79,39 +79,11 @@
     border-bottom: 1px solid #27ba9b;
 }
 
-.buyCar {
-    float: right;
-    margin-top: 23px;
-    margin-left: 15px;
-    margin-right: 12px;
-}
-
-.buyCar a {
-    display: inline-block;
-    position: relative;
-    width: 23px;
-    height: 23px;
-    background-image: url(../images/sprites.png);
-    background-position: -119px -69px;
-}
-
-.buyCar span {
-    position: absolute;
-    top: -5px;
-    right: -12px;
-    height: 16px;
-    padding: 0 6px;
-    background-color: #e26237;
-    border-radius: 8px;
-    line-height: 16px;
-    font-size: 13px;
-    color: #ffffff;
-}
-
 .search {
     float: right;
     position: relative;
     margin-top: 16px;
+    margin-right: 15px;
     border-bottom: 2px solid #e7e7e7;
 }
 
@@ -139,52 +111,16 @@
     background-position: -79px -69px;
 }
 
-.footer {
-    height: 343px;
-    background-color: #333;
+.buyCar {
+    float: right;
+    
 }
 
-.footer .top {
-    height: 175px;
-    border-bottom: 3px solid #434343;
-}
-
-.footer .top li {
-    float: left;
-    margin: auto 0;
-    font-size: 28px;
-    color: #ffffff;
-    width: 413px;
-    height: 175px;
-    line-height: 175px;
-    text-align: center;
-}
-
-.footer .top span {
+.buyCar a {
     display: inline-block;
-    width: 58px;
-    height: 58px;
-    margin-right: 19px;
+    width: 23px;
+    height: 23px;
+    margin: auto 12px;
     background-image: url(../images/sprites.png);
-    background-position: 0 0;
-    vertical-align: middle;
-}
-
-.footer .bottom {
-    height: 48px;
-    margin-top: 41px;
-    text-align: center;
-}
-
-.footer .bottom a {
-    padding: 0 5px;
-    font-size: 14px;
-    color: #999999;
-    vertical-align: middle;
-}
-
-.footer .bottom p {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #999999;
+    background-position: -119px -69px;
 }

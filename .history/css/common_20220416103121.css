@@ -1,0 +1,28 @@
+.wrapper {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 52px;
+    background-color: #333333;
+}
+
+.header .wrapper {
+    height: 52px;
+    line-height: 52px;
+    background-color: green;
+}
+
+.header .wrapper ul {
+    float: right;
+}
+
+.header .wrapper li {
+    float: right;
+    margin: 0 17px;
+}
+
+.header .wrapper li a {
+    border-right: 1px solid #666666;
+}
